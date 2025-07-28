@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Summary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>AI Summary</h2>
+
+    <div class="options">
+      <select id="summary-type">
+        <option value="brief">Brief Summary</option>
+        <option value="detailed">Detailed Summary</option>
+        <option value="bullets">Bullet Points</option>
+        <option value="diagram">Visual Mind Map</option>
+      </select>
+      <button id="summarize">Summarize This Page</button>
+      <button id="copy-btn">Copy Summary</button>
+    </div>
+
+    <!-- <button
+      id="speak-btn"
+      style="
+        margin-top: 10px;
+        background-color: #3b82f6;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+      "
+    >
+      🔊 Read Aloud
+    </button> -->
+
+    <div class="read-aloud-container">
+      <h3 class="read-aloud-title">🔊 Read Aloud</h3>
+      <div class="audio-controls">
+        <button class="audio-btn play" id="play-btn">▶️ Play</button>
+        <button class="audio-btn pause" id="pause-btn">⏸️ Pause</button>
+      </div>
+    </div>
+
+    <div id="result" style="max-height: 500px; overflow-y: auto">
+      Select a summary type and click 'Summarize This Page' to generate a
+      summary.
+    </div>
+
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
